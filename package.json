@@ -1,0 +1,34 @@
+{
+  "name": "nlw-agents-intermediario",
+  "version": "1.0.0",
+  "description": "Projeto construído na 20ª edição do NLW - Agents, usando NodeJS e ReactJS.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file .env --experimental-strip-types --no-warnings src/server.ts",
+    "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anavaleska/nlw-agents-intermediario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anavaleska/nlw-agents-intermediario/issues"
+  },
+  "homepage": "https://github.com/anavaleska/nlw-agents-intermediario#readme",
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@types/node": "^24.0.12",
+    "typescript": "^5.8.3",
+    "ultracite": "5.0.32"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "fastify": "^5.4.0",
+    "fastify-type-provider-zod": "^5.0.2",
+    "zod": "^3.25.76"
+  }
+}
