@@ -8,6 +8,13 @@
       "when": 1752072250407,
       "tag": "0000_dear_cobalt_man",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752143093707,
+      "tag": "0001_huge_namora",
+      "breakpoints": true
     }
   ]
 }
