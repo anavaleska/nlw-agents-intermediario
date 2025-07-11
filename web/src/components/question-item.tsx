@@ -1,6 +1,6 @@
 import { Bot, Loader2, MessageSquare } from "lucide-react";
-import { Card, CardContent } from "../components/ui/card";
-import { dayjs } from "../lib/days";
+import { Card, CardContent } from "@/components/ui/card";
+import { dayjs } from "@/lib/days";
 
 interface Question {
   id: string;
